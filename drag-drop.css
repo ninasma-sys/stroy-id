@@ -1,0 +1,8 @@
+.task-card{cursor:grab;transition:transform .15s,opacity .15s,box-shadow .15s}
+.task-card:hover{box-shadow:0 4px 11px rgba(24,45,76,.16);transform:translateY(-1px)}
+.task-card:active{cursor:grabbing}
+.task-card.dragging{opacity:.42;transform:rotate(1deg)}
+.kanban-col.drop-target{outline:2px dashed var(--blue);outline-offset:-3px;background:#e3f0ff}
+@media(max-width:650px){html,body,#app{max-width:100%;overflow-x:hidden}.shell,.main,.content,.kpis{min-width:0;max-width:100%}.sidebar .nav{min-width:0;flex:1}.sidebar{max-width:100vw;overflow:hidden}.kpis{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.interactive-task{transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+.interactive-task:hover,.interactive-task:focus{transform:translateX(5px);box-shadow:0 4px 12px rgba(24,45,76,.14);border-color:#8ab6ea;outline:0}
