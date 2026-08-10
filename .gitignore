@@ -1,0 +1,12 @@
+# This public repository intentionally contains only the static demonstration.
+# Keep server code, local data, document files, and deployment artifacts private.
+*
+!.gitignore
+!README.md
+!index.html
+!app.js
+!styles.css
+!drag-drop.css
+!.github/
+!.github/workflows/
+!.github/workflows/pages.yml
